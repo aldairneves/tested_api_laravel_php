@@ -30,7 +30,7 @@ class ChavesController extends Controller
         return new ChavesResource($chave);
     }
 
-    public function destroy(Chaves $chave, $id)
+    public function destroy($id)
     {
         $chave = Chaves::find($id);
         $chave->delete();
