@@ -11,11 +11,13 @@ class SenhasResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'instituicao' => $this->instituicao,
+            'plataforma' => $this->plataforma,
             'senha' => $this->senha,
-            'data_alteracao' => $this->data_alteracao,
+            'date_generation' => $this->date_generation,
+            'senha_valido' => $this->senha_valido,
+            'senha_alterada' => $this->senha_alterada,
             'motivo' => $this->motivo,
-            'valido' => $this->valido,
+            'data_alteracao' => $this->data_alteracao,
             'created_at' => $this->created_at,
         ];
     }

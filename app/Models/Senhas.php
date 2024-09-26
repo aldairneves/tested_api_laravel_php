@@ -9,5 +9,5 @@ class Senhas extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['instituicao', 'senha', 'data_alteracao', 'motivo', 'valido'];
+    protected $fillable = ['plataforma', 'senha', 'date_generation', 'senha_valido', 'senha_alterada', 'motivo', 'data_alteracao'];
 }

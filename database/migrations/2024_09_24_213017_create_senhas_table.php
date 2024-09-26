@@ -13,11 +13,13 @@ return new class extends Migration
     {
         Schema::create('senhas', function (Blueprint $table) {
             $table->id();
-            $table->string('instituicao');
-            $table->string('senha');
-            $table->date('data_alteracao');
-            $table->string('motivo');
-            $table->boolean('valido');
+            $table->string('plataforma')->nullable();
+            $table->string('senha')->nullable();
+            $table->date('date_generation')->nullable();
+            $table->boolean('senha_valido')->nullable();
+            $table->boolean('senha_alterada')->nullable();
+            $table->string('motivo')->nullable();
+            $table->date('data_alteracao')->nullable();
             $table->timestamps();
         });
     }

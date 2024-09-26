@@ -17,11 +17,14 @@ class StoreSenhasRequest extends FormRequest
     public function rules()
     {
         return [
-            'instituicao' => ['required', 'max:70'],
-            'senha' => ['required'],
-            'data_alteracao' => ['required'],
-            'motivo' => ['required'],
-            'valido' => ['required']
+            'plataforma' => ['required', 'max:70'],
+            'senha' => ['max:70'],
+            'date_generation' => ['max:70'],
+            'senha_valido' => ['max:225'],
+            'senha_alterada' => ['max:70'],
+            'motivo' => ['max:70'],
+            'data_alteracao' => ['max:70'],
+
         ];
     }
 }
