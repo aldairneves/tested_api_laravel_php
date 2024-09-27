@@ -16,7 +16,8 @@ class StorePostRequest extends FormRequest
         return [
             'title_anotacao' => ['required', 'max:70'],
             'conteudo' => ['required'],
-            'status' => ['required']
+            'status' => ['required'],
+            'urgencia' => ['required']
         ];
     }
 }

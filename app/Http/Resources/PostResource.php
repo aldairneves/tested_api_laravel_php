@@ -13,6 +13,7 @@ class PostResource extends JsonResource
             'title_anotacao' => $this->title_anotacao,
             'conteudo' => $this->conteudo,
             'status' => $this->status,
+            'urgencia' => $this->urgencia,
             'created_at' => $this->created_at,
         ];
     }
