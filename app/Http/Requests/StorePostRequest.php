@@ -17,6 +17,7 @@ class StorePostRequest extends FormRequest
             'title_anotacao' => ['required', 'max:70'],
             'conteudo' => ['required'],
             'status' => ['required'],
+            'path_anexo' => ['max:255'],
             'urgencia' => ['required']
         ];
     }

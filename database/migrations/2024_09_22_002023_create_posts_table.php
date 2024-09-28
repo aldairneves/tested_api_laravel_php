@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title_anotacao');
             $table->text('conteudo');
             $table->enum('status',['Pendente', 'Aguardando', 'Concluido', 'Cancelado']);
+            $table->string('path_anexo')->nullable();
             $table->enum('urgencia',['Sim', 'Não']);
             
             $table->timestamps();
