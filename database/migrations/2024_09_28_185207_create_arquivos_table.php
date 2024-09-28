@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('arquivos', function (Blueprint $table) {
             $table->id();
             $table->string('title_arquivo')->nullable();
+            $table->string('entidade')->nullable();
             $table->string('descricao')->nullable();
             $table->string('path_anexo')->nullable();
             $table->timestamps();

@@ -18,6 +18,7 @@ class StoreArquivosRequest extends FormRequest
     {
         return [
             'title_arquivo' => ['required', 'max:70'],
+            'entidade' => ['required'],
             'descricao' => ['required'],
             'path_anexo' => ['required']
         ];

@@ -12,6 +12,7 @@ class ArquivosResource extends JsonResource
         return [
             'id' => $this->id,
             'title_arquivo' => $this->title_arquivo,
+            'entidade' => $this->entidade,
             'descricao' => $this->descricao,
             'path_anexo' => $this->path_anexo,
             'created_at' => $this->created_at,
