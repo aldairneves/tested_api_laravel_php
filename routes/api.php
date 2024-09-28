@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\PostController;
 use App\Http\Controllers\Api\ChavesController;
 use App\Http\Controllers\Api\SenhasController;
+use App\Http\Controllers\Api\ArquivosController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,5 +20,9 @@ Route::apiResource('chaves', ChavesController::class)->except([
 ]);
 
 Route::apiResource('senhas', SenhasController::class)->except([
+    'create', 'show', 'edit'
+]);
+
+Route::apiResource('arquivos', ArquivosController::class)->except([
     'create', 'show', 'edit'
 ]);

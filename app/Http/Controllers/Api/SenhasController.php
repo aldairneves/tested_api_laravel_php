@@ -24,7 +24,6 @@ class SenhasController extends Controller
 
     public function update(StoreSenhasRequest $request, $id)
     {
-
         $senha = Senhas::find($id);
         $senha->update($request->validated());
         return new SenhasResource($senha);
