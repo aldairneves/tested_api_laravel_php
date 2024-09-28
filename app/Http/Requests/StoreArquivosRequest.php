@@ -20,7 +20,7 @@ class StoreArquivosRequest extends FormRequest
             'title_arquivo' => ['required', 'max:70'],
             'entidade' => ['required'],
             'descricao' => ['required'],
-            'path_anexo' => ['required']
+            'path_anexo' => ['max:255']
         ];
     }
 }
