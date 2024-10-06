@@ -15,6 +15,7 @@ return new class extends Migration
             
             $table->id();
             $table->string('plataforma')->nullable();
+            $table->string('email')->nullable();
 
             $table->string('codigo1')->nullable();
             $table->boolean('codigo1_used')->nullable();

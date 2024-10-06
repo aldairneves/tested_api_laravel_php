@@ -14,7 +14,9 @@ return new class extends Migration
         Schema::create('senhas', function (Blueprint $table) {
             $table->id();
             $table->string('plataforma')->nullable();
+            $table->string('email')->nullable();
             $table->string('senha')->nullable();
+            $table->string('email_recovery')->nullable();
             $table->date('date_generation')->nullable();
             $table->boolean('senha_valido')->nullable();
             $table->boolean('senha_alterada')->nullable();

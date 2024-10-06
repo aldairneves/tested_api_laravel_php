@@ -40,6 +40,7 @@ class InserirDadosSeeder extends Seeder
             $Chaves = [
                 [
                     'plataforma' => 'Rubidio',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -118,6 +119,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Facebook',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -196,6 +198,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Instagram',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -274,6 +277,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'GitHub',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -352,6 +356,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Discord',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -430,6 +435,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Google',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -508,6 +514,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Microsoft',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -586,6 +593,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Google Conta 2',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -664,6 +672,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Google Conta 3',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -742,6 +751,7 @@ class InserirDadosSeeder extends Seeder
                 ],
                 [
                     'plataforma' => 'Blog',
+                    'email' => 'teste@email.com',
 
                     'codigo1' => '123456789',
                     'codigo1_used' => '1',
@@ -825,16 +835,16 @@ class InserirDadosSeeder extends Seeder
             }
 
             $senhas = [
-                ['plataforma' => 'Instagram', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '1', 'senha_alterada' => '1', 'motivo' => 'Trocada', 'data_alteracao' => '2024-05-10'],
-                ['plataforma' => 'Facebook', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Google', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Google conta 2', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Google conta 3', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Banco 1', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Banco 2', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Banco 3', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'GitHub', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
-                ['plataforma' => 'Rubidio', 'senha' => '123456789', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Instagram', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '1', 'senha_alterada' => '1', 'motivo' => 'Trocada', 'data_alteracao' => '2024-05-10'],
+                ['plataforma' => 'Facebook', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Google', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Google conta 2', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Google conta 3', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Banco 1', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Banco 2', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Banco 3', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'GitHub', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
+                ['plataforma' => 'Rubidio', 'email' => 'teste@email.com', 'senha' => '123456789', 'email_recovery' => 'teste@emailrecovery.com', 'date_generation' => '2024-05-10', 'senha_valido' => '0', 'senha_alterada' => '0', 'motivo' => '', 'data_alteracao' => null],
             ];
             foreach ($senhas as $senha) {
                 Senhas::create($senha);

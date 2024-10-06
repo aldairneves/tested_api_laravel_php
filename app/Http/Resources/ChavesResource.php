@@ -12,6 +12,7 @@ class ChavesResource extends JsonResource
         return [
             'id' => $this->id,
             'plataforma' => $this->plataforma,
+            'email' => $this->email,
 
             'codigo1' => $this->codigo1,
             'codigo1_used' => $this->codigo1_used,

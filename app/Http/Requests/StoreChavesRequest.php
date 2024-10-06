@@ -18,6 +18,7 @@ class StoreChavesRequest extends FormRequest
     {
         return [
             'plataforma' => ['required', 'max:70'],
+            'email' => ['max:255'],
 
             'codigo1' => ['max:255'],
             'codigo1_used' => ['max:255'],

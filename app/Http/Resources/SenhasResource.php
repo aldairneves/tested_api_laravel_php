@@ -12,7 +12,9 @@ class SenhasResource extends JsonResource
         return [
             'id' => $this->id,
             'plataforma' => $this->plataforma,
+            'email' => $this->email,
             'senha' => $this->senha,
+            'email_recovery'  => $this->email_recovery,
             'date_generation' => $this->date_generation,
             'senha_valido' => $this->senha_valido,
             'senha_alterada' => $this->senha_alterada,

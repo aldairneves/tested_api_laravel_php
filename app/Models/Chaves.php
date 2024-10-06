@@ -12,6 +12,7 @@ class Chaves extends Model
     protected $fillable = [
 
             'plataforma',
+            'email',
 
             'codigo1',
             'codigo1_used',

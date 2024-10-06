@@ -18,7 +18,9 @@ class StoreSenhasRequest extends FormRequest
     {
         return [
             'plataforma' => ['required', 'max:70'],
+            'email' => ['max:70'],
             'senha' => ['max:70'],
+            'email_recovery' => ['max:70'],
             'date_generation' => ['max:70'],
             'senha_valido' => ['max:225'],
             'senha_alterada' => ['max:70'],
