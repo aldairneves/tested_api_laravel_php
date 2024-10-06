@@ -28,6 +28,9 @@ class InserirDadosSeeder extends Seeder
                 ['title_arquivo' => 'CPF', 'entidade' => 'Arquivo Pessoal', 'descricao' => 'Meu CPF', 'path_anexo' => 'arquivos\teste\fonte'],
                 ['title_arquivo' => 'CPF', 'entidade' => 'Arquivo Pessoal', 'descricao' => 'Meu CPF', 'path_anexo' => 'arquivos\teste\fonte'],
                 ['title_arquivo' => 'CPF', 'entidade' => 'Arquivo Pessoal', 'descricao' => 'Meu CPF', 'path_anexo' => 'arquivos\teste\fonte'],
+                ['title_arquivo' => 'CPF', 'entidade' => 'Arquivo Pessoal', 'descricao' => 'Meu CPF', 'path_anexo' => 'arquivos\teste\fonte'],
+                ['title_arquivo' => 'CPF', 'entidade' => 'Arquivo Pessoal', 'descricao' => 'Meu CPF', 'path_anexo' => 'arquivos\teste\fonte'],
+                ['title_arquivo' => 'CPF', 'entidade' => 'Arquivo Pessoal', 'descricao' => 'Meu CPF', 'path_anexo' => 'arquivos\teste\fonte'],
             ];
 
             foreach ($arquivos as $arquivo) {
@@ -846,6 +849,9 @@ class InserirDadosSeeder extends Seeder
                 ['title_anotacao' => 'Aviso', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Sim'],
                 ['title_anotacao' => 'Anotação', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Sim'],
                 ['title_anotacao' => 'Lembrete', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Sim'],
+                ['title_anotacao' => 'Aviso', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Não'],
+                ['title_anotacao' => 'Anotação', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Não'],
+                ['title_anotacao' => 'Lembrete', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Não'],
                 ['title_anotacao' => 'Aviso', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Não'],
                 ['title_anotacao' => 'Anotação', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Não'],
                 ['title_anotacao' => 'Lembrete', 'conteudo' => '123456789', 'status' => 'Pendente', 'path_anexo' => 'arquivos\teste\fonte', 'urgencia' => 'Não'],
