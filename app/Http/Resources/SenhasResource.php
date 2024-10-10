@@ -20,6 +20,7 @@ class SenhasResource extends JsonResource
             'senha_alterada' => $this->senha_alterada,
             'motivo' => $this->motivo,
             'data_alteracao' => $this->data_alteracao,
+            'chaves_id' => $this->chaves_id,
             'created_at' => $this->created_at,
         ];
     }
