@@ -26,6 +26,7 @@ class StoreSenhasRequest extends FormRequest
             'senha_alterada' => ['max:70'],
             'motivo' => ['max:70'],
             'data_alteracao' => ['max:70'],
+            'chaves_id' => ['max:70'],
 
         ];
     }

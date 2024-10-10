@@ -22,6 +22,7 @@ return new class extends Migration
             $table->boolean('senha_alterada')->nullable();
             $table->string('motivo')->nullable();
             $table->date('data_alteracao')->nullable();
+            $table->foreignId('chaves_id')->constrained('chaves')->onDelete('cascade')->nullable();
             $table->timestamps();
         });
     }
