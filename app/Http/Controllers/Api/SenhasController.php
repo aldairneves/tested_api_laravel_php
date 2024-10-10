@@ -14,6 +14,7 @@ class SenhasController extends Controller
     {
         $Senhas = Senhas::all();
         return SenhasResource::collection($Senhas);
+        // return Senhas::with('chaves')->find(1);
     }
 
     public function store(StoreSenhasRequest $request)
